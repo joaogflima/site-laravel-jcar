@@ -34,8 +34,8 @@ php artisan migrate
 
 # 5) Popular dados iniciais (seed SQL com imagens e usuário admin)
 # O arquivo está em database/seeders/seed_jcar.sql
-# Substitua 'root' e senha conforme seu ambiente:
-mysql -u root -p jcar < database/seeders/seed_jcar.sql
+# Execute o seguinte comando pelo terminal cmd.exe dentro do caminho onde está localizado seu projeto (Não funciona no powershell):
+"C:\xampp\mysql\bin\mysql.exe" -u root -p jcar < database/seeders/seed_jcar.sql
 
 # 6) Rodar a aplicação
 php artisan serve
