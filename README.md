@@ -20,8 +20,8 @@ composer install
 # 3) Banco de dados
 # Crie o banco 'jcar' no MySQL (utf8mb4). Exemplo:
 # CREATE DATABASE jcar CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-## 3.1) (Ajuste credenciais no .env local)
-    Ex.
+## 3.1) (Verifique as credenciais no .env local)
+    Configuração esperada:
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
     DB_PORT=3306
