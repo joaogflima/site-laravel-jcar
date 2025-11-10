@@ -41,14 +41,14 @@ mysql -u root -p jcar < database/seeders/seed_jcar.sql
 php artisan serve
 # Acesse http://127.0.0.1:8000
 ````
-##🔐 Acesso do Administrador
+## 🔐 Acesso do Administrador
 
 Usuário: admin@site.com
 
 Senha: password
 
 
-##🗂️ Estrutura (principais)
+## 🗂️ Estrutura (principais)
 
 - app/Models → Modelos
 
@@ -62,7 +62,7 @@ Senha: password
 
 - database/seeders/seed_jcar.sql → Seed SQL com dados fictícios (cores, marcas, modelos, veículos e usuário admin)
 
-Imagens – Jcar
+#Imagens – Jcar
 
 
 # 1.	Área pública – (views/layouts/template_home)
