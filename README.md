@@ -62,7 +62,8 @@ Senha: password
 
 - database/seeders/seed_jcar.sql → Seed SQL com dados fictícios (cores, marcas, modelos, veículos e usuário admin)
 
-#Imagens – Jcar
+
+# Imagens – Jcar
 
 
 # 1.	Área pública – (views/layouts/template_home)
