@@ -3,7 +3,7 @@
 Aplicação Laravel com área pública (listagem/detalhe de veículos) e área administrativa (CRUD de Marcas, Modelos, Cores e Veículos).
 
 ## 📦 Requisitos
-- PHP 8.x
+- PHP 8.3.x ou superior.
 - Composer
 - MySQL
 
