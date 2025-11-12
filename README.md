@@ -17,6 +17,8 @@ cd site-laravel-jcar
 # 2) Instalar dependências PHP
 composer install
 
+Em caso de falha no 'composer install', verifique se as seguintes extensões estão descomentadas no arquivo php.ini. "extension=fileinfo", "extension=openssl" e extension_dir = "C:/xampp/php/ext" (altere de acordo com a pasta ext de sua máquina).
+
 # 3) Banco de dados
 # Crie o banco 'jcar' no MySQL (utf8mb4). Exemplo:
 # CREATE DATABASE jcar CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
